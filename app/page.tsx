@@ -134,7 +134,7 @@ export default function RabeaElJarhiPortfolio() {
                             </div>
                         </div>
 
-                        <div className="hidden lg:flex items-center gap-8">
+                        <div className="hidden lg:flex items-center justify-center gap-9    ">
                             {[
                                 { id: "home", label: "الرئيسية" },
                                 { id: "about", label: "عن الشاعر" },
@@ -157,14 +157,7 @@ export default function RabeaElJarhiPortfolio() {
                         </div>
 
                         <div className="flex items-center gap-3">
-                            <Button
-                                variant="outline"
-                                size="sm"
-                                className="border-gray-700 text-gray-300 hover:bg-gray-800 hover:text-white bg-transparent"
-                            >
-                                <Download className="mr-2 h-4 w-4" />
-                                السيرة الذاتية
-                            </Button>
+
                         </div>
                     </nav>
                 </div>
@@ -737,7 +730,7 @@ export default function RabeaElJarhiPortfolio() {
                         </p>
                     </div>
 
-                    <div className="flex flex-col max-lg:flex-row gap-8">
+                    <div className="flex flex-col gap-8">
                         <div className="space-y-8">
                             <Card className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500">
                                 <CardHeader>
