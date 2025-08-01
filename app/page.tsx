@@ -298,63 +298,6 @@ export default function RabeaElJarhiPortfolio() {
                             </Link>
                         </Button>
                     </div>
-
-                    {/* Audio Player */}
-                    <div className="max-w-2xl mx-auto">
-                        <Card className="bg-gray-900/50 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-300">
-                            <CardContent className="p-6">
-                                <div className="flex items-center gap-4">
-                                    <Button
-                                        onClick={togglePlayPause}
-                                        className="bg-amber-600 hover:bg-amber-700 rounded-full w-14 h-14 flex-shrink-0"
-                                    >
-                                        {isPlaying ? (
-                                            <Pause className="h-6 w-6" />
-                                        ) : (
-                                            <Play className="h-6 w-6" />
-                                        )}
-                                    </Button>
-                                    <div className="flex-1 text-right">
-                                        <h4 className="text-white font-semibold mb-1">
-                                            قصيدة "همسات الروح" - بصوت الشاعر
-                                        </h4>
-                                        <div className="flex items-center gap-2 text-gray-400 text-sm justify-end">
-                                            <span>4:32 دقيقة</span>
-                                            <span>•</span>
-                                            <span>125K استماع</span>
-                                            <Headphones className="h-4 w-4" />
-                                        </div>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <Button
-                                            variant="ghost"
-                                            size="sm"
-                                            className="text-gray-400 hover:text-white"
-                                        >
-                                            <Heart className="h-5 w-5" />
-                                        </Button>
-                                        <Button
-                                            variant="ghost"
-                                            size="sm"
-                                            className="text-gray-400 hover:text-white"
-                                        >
-                                            <Share2 className="h-5 w-5" />
-                                        </Button>
-                                    </div>
-                                </div>
-                                <div className="mt-4">
-                                    <div className="w-full bg-gray-800 rounded-full h-2">
-                                        <div className="bg-amber-600 h-2 rounded-full w-1/3 transition-all duration-300"></div>
-                                    </div>
-                                </div>
-                            </CardContent>
-                        </Card>
-                    </div>
-                </div>
-
-                {/* Scroll Indicator */}
-                <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-                    <ChevronDown className="h-8 w-8 text-gray-400" />
                 </div>
             </section>
 
@@ -539,64 +482,70 @@ export default function RabeaElJarhiPortfolio() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                title: "ديوان همسات الروح",
+                                title: "العمر راح من بدايته",
                                 subtitle: "قصائد رومانسية وعاطفية",
                                 description:
                                     "مجموعة من أجمل القصائد الرومانسية التي تعبر عن مشاعر الحب والشوق. يحتوي على 45 قصيدة متنوعة تناسب جميع مراحل الحب.",
-                                year: "2023",
+                                year: "2024",
                                 rating: 4.8,
-                                badge: "الأكثر مبيعاً",
-                                badgeColor: "bg-red-600",
+                                youtube:
+                                    "https://youtu.be/9V6Jyy029B4?si=gwq_7dHrezrx_mC",
+                                image: "/books/book1.jpg",
                             },
                             {
-                                title: "ديوان أصداء الوطن",
+                                title: "أنواع الجدعنه وأصحابها",
                                 subtitle: "قصائد وطنية وقومية",
                                 description:
                                     "مجموعة قصائد تعبر عن حب الوطن والانتماء. يضم 38 قصيدة تتناول التاريخ والحضارة والأمل في المستقبل.",
-                                year: "2022",
+                                year: "2025",
                                 rating: 4.7,
-                                badge: "جائزة الشعر الوطني",
-                                badgeColor: "bg-green-600",
+                                youtube:
+                                    "https://youtu.be/8q7m5czdlos?si=qWOyIopYcxeZRGsH",
+                                image: "/books/book2.jpg",
                             },
                             {
-                                title: "ديوان كلمات من القلب",
+                                title: "وصف الست الشقيانه فى كلمتين",
                                 subtitle: "قصائد اجتماعية وإنسانية",
                                 description:
                                     "قصائد تتناول القضايا الاجتماعية والإنسانية بأسلوب شاعري مؤثر. يحتوي على 42 قصيدة تعالج مواضيع العدالة والسلام.",
                                 year: "2024",
                                 rating: 4.6,
-                                badge: "الأحدث",
-                                badgeColor: "bg-blue-600",
+                                youtube:
+                                    "https://youtu.be/Ias8OWkK3VA?si=Yk4vOeCRSyUPkllM",
+                                image: "/books/book3.jpg",
                             },
                             {
-                                title: "ديوان رحلة العمر",
+                                title: "أعظم ما قيل عن الأم المتوافاه وكأنها لم تمت",
                                 subtitle: "قصائد تأملية وفلسفية",
                                 description:
                                     "رحلة شعرية عميقة تتناول معاني الحياة والوجود. يضم 35 قصيدة تأملية تدعو للتفكر في الكون والحياة.",
-                                year: "2021",
+                                year: "2024",
                                 rating: 4.5,
-                                badge: "الأكثر عمقاً",
-                                badgeColor: "bg-purple-600",
+                                youtube:
+                                    "https://youtu.be/Wcg2dJ3F_jo?si=4uVMbFLNSVdwRZmC",
+                                image: "/books/book4.jpg",
                             },
                             {
-                                title: "ديوان أنغام المدينة",
+                                title: "تعالى شوف الناس اللى فى القطر دى عامله ازاى",
                                 subtitle: "قصائد الحياة المعاصرة",
                                 description:
                                     "صور شعرية من الحياة اليومية في المدن العربية. يحتوي على 40 قصيدة تصف تحديات العصر وآمال الشباب.",
-                                year: "2020",
+                                year: "2024",
                                 rating: 4.4,
-                                badge: "الأكثر واقعية",
-                                badgeColor: "bg-orange-600",
+                                youtube:
+                                    "https://youtu.be/2f37GEjbwQk?si=f7A0EZ9oqjPTk_eT",
+                                image: "/books/book5.jpg",
                             },
                             {
-                                title: "ديوان نسائم الفجر",
+                                title: "كل اللى عايز تقوله للناس اللى بصه فى عيشتك",
                                 subtitle: "قصائد الأمل والتفاؤل",
                                 description:
                                     "مجموعة قصائد تبعث الأمل والتفاؤل في النفوس. يضم 33 قصيدة تحتفي بجمال الحياة وقوة الإرادة.",
                                 year: "2024",
                                 rating: 4.9,
-                                badge: "الأكثر إلهاماً",
-                                badgeColor: "bg-cyan-600",
+                                youtube:
+                                    "https://youtu.be/VQjpT8oAmKA?si=sfs80kn1qdtx2VEh",
+                                image: "/books/book6.jpg",
                             },
                         ].map((book, index) => (
                             <Card
@@ -605,20 +554,12 @@ export default function RabeaElJarhiPortfolio() {
                             >
                                 <div className="relative">
                                     <Image
-                                        src={`/placeholder.svg?height=250&width=350&text=${book.title}`}
+                                        src={book.image}
                                         alt={book.title}
                                         width={350}
                                         height={250}
                                         className="w-full h-48 object-cover"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 to-transparent"></div>
-                                    <div className="absolute top-4 right-4">
-                                        <Badge
-                                            className={`${book.badgeColor} text-white border-0`}
-                                        >
-                                            {book.badge}
-                                        </Badge>
-                                    </div>
                                 </div>
 
                                 <CardContent className="p-6">
@@ -658,35 +599,27 @@ export default function RabeaElJarhiPortfolio() {
                                         </div>
                                     </div>
 
-                                    <div className="flex gap-2">
-                                        <Button
-                                            size="sm"
-                                            className="flex-1 bg-amber-600 hover:bg-amber-700 text-white"
-                                        >
-                                            <Download className="mr-2 h-4 w-4" />
-                                            تحميل
-                                        </Button>
+                                    <div className="flex items-center justify-center gap-2 ">
                                         <Button
                                             variant="outline"
-                                            size="sm"
-                                            className="border-gray-700 text-gray-300 hover:bg-gray-800 bg-transparent"
+                                            size="lg"
+                                            className="border-gray-700 text-gray-300 hover:bg-gray-800 bg-transparent w-full "
+                                            asChild
                                         >
-                                            <Eye className="h-4 w-4" />
+                                            <Link
+                                                href={book.youtube}
+                                                target="_blank"
+                                            >
+                                                <Eye className="h-4 w-4" />
+                                                <span className="ml-1">
+                                                    Watch
+                                                </span>
+                                            </Link>
                                         </Button>
                                     </div>
                                 </CardContent>
                             </Card>
                         ))}
-                    </div>
-
-                    <div className="text-center mt-12">
-                        <Button
-                            size="lg"
-                            className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3"
-                        >
-                            <BookOpen className="mr-2 h-5 w-5" />
-                            عرض جميع الأعمال
-                        </Button>
                     </div>
                 </div>
             </section>
@@ -804,7 +737,7 @@ export default function RabeaElJarhiPortfolio() {
                         </p>
                     </div>
 
-                    <div className="grid lg:grid-cols-2 gap-16">
+                    <div className="flex flex-col max-lg:flex-row gap-8">
                         <div className="space-y-8">
                             <Card className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500">
                                 <CardHeader>
@@ -822,7 +755,7 @@ export default function RabeaElJarhiPortfolio() {
                                                 البريد الإلكتروني
                                             </div>
                                             <div className="text-gray-400">
-                                                rabea.eljarhi@gmail.com
+                                                omy84191@gmail.com
                                             </div>
                                         </div>
                                     </div>
@@ -834,8 +767,8 @@ export default function RabeaElJarhiPortfolio() {
                                             <div className="text-white font-semibold">
                                                 رقم الهاتف
                                             </div>
-                                            <div className="text-gray-400">
-                                                +20 123 456 7890
+                                            <div className="text-gray-400 text-end">
+                                                ٠١٠٦٧٢٦٧١٣٢
                                             </div>
                                         </div>
                                     </div>
@@ -854,7 +787,8 @@ export default function RabeaElJarhiPortfolio() {
                                     </div>
                                 </CardContent>
                             </Card>
-
+                        </div>
+                        <div className="">
                             <Card className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500">
                                 <CardHeader>
                                     <CardTitle className="text-xl text-white">
@@ -915,81 +849,6 @@ export default function RabeaElJarhiPortfolio() {
                                 </CardContent>
                             </Card>
                         </div>
-
-                        <Card className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500">
-                            <CardHeader>
-                                <CardTitle className="text-white text-2xl">
-                                    أرسل رسالة
-                                </CardTitle>
-                                <CardDescription className="text-gray-400">
-                                    سأكون سعيداً بالتواصل معك والرد على
-                                    استفساراتك
-                                </CardDescription>
-                            </CardHeader>
-                            <CardContent>
-                                <form className="space-y-6">
-                                    <div className="grid grid-cols-2 gap-4">
-                                        <div>
-                                            <label className="block text-white font-medium mb-2">
-                                                الاسم الأول
-                                            </label>
-                                            <input
-                                                type="text"
-                                                className="w-full p-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-amber-600 focus:border-transparent"
-                                                placeholder="أحمد"
-                                            />
-                                        </div>
-                                        <div>
-                                            <label className="block text-white font-medium mb-2">
-                                                الاسم الأخير
-                                            </label>
-                                            <input
-                                                type="text"
-                                                className="w-full p-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-amber-600 focus:border-transparent"
-                                                placeholder="محمد"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <label className="block text-white font-medium mb-2">
-                                            البريد الإلكتروني
-                                        </label>
-                                        <input
-                                            type="email"
-                                            className="w-full p-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-amber-600 focus:border-transparent"
-                                            placeholder="ahmed@example.com"
-                                        />
-                                    </div>
-                                    <div>
-                                        <label className="block text-white font-medium mb-2">
-                                            موضوع الرسالة
-                                        </label>
-                                        <input
-                                            type="text"
-                                            className="w-full p-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-amber-600 focus:border-transparent"
-                                            placeholder="استفسار عن الشعر"
-                                        />
-                                    </div>
-                                    <div>
-                                        <label className="block text-white font-medium mb-2">
-                                            نص الرسالة
-                                        </label>
-                                        <textarea
-                                            rows={5}
-                                            className="w-full p-3 bg-gray-800/50 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-amber-600 focus:border-transparent resize-none"
-                                            placeholder="اكتب رسالتك هنا..."
-                                        ></textarea>
-                                    </div>
-                                    <Button
-                                        type="submit"
-                                        className="w-full bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3"
-                                    >
-                                        <Mail className="mr-2 h-5 w-5" />
-                                        إرسال الرسالة
-                                    </Button>
-                                </form>
-                            </CardContent>
-                        </Card>
                     </div>
                 </div>
             </section>
@@ -1039,7 +898,6 @@ export default function RabeaElJarhiPortfolio() {
                                 >
                                     <Music className="h-5 w-5 text-white" />
                                 </Link>
-                                
                             </div>
                         </div>
 
