@@ -550,7 +550,7 @@ export default function RabeaElJarhiPortfolio() {
                         ].map((book, index) => (
                             <Card
                                 key={index}
-                                className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500 group overflow-hidden"
+                                className="bg-gray-900/30 backdrop-blur-sm border-gray-800 hover:border-amber-600/30 transition-all duration-500 group overflow-hidden py-0"
                             >
                                 <div className="relative">
                                     <Image
