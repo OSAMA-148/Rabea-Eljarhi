@@ -490,7 +490,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.8,
                                 youtube:
                                     "https://youtu.be/9V6Jyy029B4?si=gwq_7dHrezrx_mC",
-                                image: "/books/book1.jpg",
+                                image: "https://i.ytimg.com/vi/9V6Jyy029B4/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgWSg6MA8=&rs=AOn4CLCfGT5j6CtJyyqVLDAjy7_6MzJz0g",
                             },
                             {
                                 title: "أنواع الجدعنه وأصحابها",
@@ -501,7 +501,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.7,
                                 youtube:
                                     "https://youtu.be/8q7m5czdlos?si=qWOyIopYcxeZRGsH",
-                                image: "/books/book2.jpg",
+                                image: "https://i.ytimg.com/vi/8q7m5czdlos/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGH8gRygqMA8=&rs=AOn4CLACKDbEZ1jRV19pyfFCv_5kqjU9Mw",
                             },
                             {
                                 title: "وصف الست الشقيانه فى كلمتين",
@@ -512,7 +512,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.6,
                                 youtube:
                                     "https://youtu.be/Ias8OWkK3VA?si=Yk4vOeCRSyUPkllM",
-                                image: "/books/book3.jpg",
+                                image: "https://i.ytimg.com/vi/Ias8OWkK3VA/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgSShLMA8=&rs=AOn4CLBo0CkGnAyjADr_RVi9rUrfvFX3HA",
                             },
                             {
                                 title: "أعظم ما قيل عن الأم المتوافاه وكأنها لم تمت",
@@ -523,7 +523,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.5,
                                 youtube:
                                     "https://youtu.be/Wcg2dJ3F_jo?si=4uVMbFLNSVdwRZmC",
-                                image: "/books/book4.jpg",
+                                image: "https://i.ytimg.com/vi/Wcg2dJ3F_jo/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgSyg4MA8=&rs=AOn4CLAjTH7CROZ2G8XvWNSR6j_5cxDN2Q",
                             },
                             {
                                 title: "تعالى شوف الناس اللى فى القطر دى عامله ازاى",
@@ -534,7 +534,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.4,
                                 youtube:
                                     "https://youtu.be/2f37GEjbwQk?si=f7A0EZ9oqjPTk_eT",
-                                image: "/books/book5.jpg",
+                                image: "https://i.ytimg.com/vi/2f37GEjbwQk/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH2CYAC0AWKAgwIABABGGUgWChQMA8=&rs=AOn4CLAUHXpPuEpm46ynon3a8ddHBfToEQ",
                             },
                             {
                                 title: "كل اللى عايز تقوله للناس اللى بصه فى عيشتك",
@@ -545,7 +545,7 @@ export default function RabeaElJarhiPortfolio() {
                                 rating: 4.9,
                                 youtube:
                                     "https://youtu.be/VQjpT8oAmKA?si=sfs80kn1qdtx2VEh",
-                                image: "/books/book6.jpg",
+                                image: "https://i.ytimg.com/vi/VQjpT8oAmKA/hqdefault.jpg?sqp=-oaymwFBCPYBEIoBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgSSg9MA8=&rs=AOn4CLAVfi45EeR1DpqznfP2hingFCmQ3A",
                             },
                         ].map((book, index) => (
                             <Card
